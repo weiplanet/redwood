@@ -5918,7 +5918,7 @@ __metadata:
     magic-sdk: 8.1.0
     netlify-identity-widget: 1.9.2
     react: 17.0.2
-    supertokens-auth-react: 0.19.0
+    supertokens-auth-react: 0.20.3
     typescript: 4.6.3
   languageName: unknown
   linkType: soft
@@ -19312,7 +19312,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-string@npm:^1.0.5, is-string@npm:^1.0.7":
+"is-string@npm:^1.0.4, is-string@npm:^1.0.5, is-string@npm:^1.0.7":
   version: 1.0.7
   resolution: "is-string@npm:1.0.7"
   dependencies:
@@ -22365,6 +22365,21 @@ __metadata:
   bin:
     mkdirp: bin/cmd.js
   checksum: 46ea0f3ffa8bc6a5bc0c7081ffc3907777f0ed6516888d40a518c5111f8366d97d2678911ad1a6882bf592fa9de6c784fea32e1687bb94e1f4944170af48a5cf
+  languageName: node
+  linkType: hard
+
+"mocha-multi@npm:^1.1.6":
+  version: 1.1.6
+  resolution: "mocha-multi@npm:1.1.6"
+  dependencies:
+    debug: ^4.1.1
+    is-string: ^1.0.4
+    lodash.once: ^4.1.1
+    mkdirp: ^1.0.4
+    object-assign: ^4.1.1
+  peerDependencies:
+    mocha: ">=2.2.0 <7 || ^9"
+  checksum: 680d56fc20a974c5d54b0887935cef0cafcca1269de0bd24506f35743dada71784ee92cb947bc08d20a1b62313e03d6394870642fa40eeb4df0c5ab6a3680cdd
   languageName: node
   linkType: hard
 
@@ -28634,13 +28649,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supertokens-auth-react@npm:0.19.0":
-  version: 0.19.0
-  resolution: "supertokens-auth-react@npm:0.19.0"
+"supertokens-auth-react@npm:0.20.3":
+  version: 0.20.3
+  resolution: "supertokens-auth-react@npm:0.20.3"
   dependencies:
     "@emotion/react": ^11.4.1
     chroma-js: ^2.1.2
     libphonenumber-js: ^1.9.43
+    mocha-multi: ^1.1.6
     prop-types: "*"
     react-phone-number-input: ^3.1.41
     react-select: ^5.2.1
@@ -28649,7 +28665,7 @@ __metadata:
     supertokens-website: ^10.0.8
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 1bd0d416cc476edcd81921aaeb2bc51ac33b7579baa682750c3fd63bdf77f039487008c3e6ab779af8d78afaef219f48f34544c95a627e19c05f2a691b31064b
+  checksum: c5f58e45fcec6dd30fe8902c12a9ec6385234141c75e290d49ba758ba8347bceafb230c35c973fd49ed20af8a199eee48005ac18bd4c256c2aba32bee1eddd9f
   languageName: node
   linkType: hard
 
